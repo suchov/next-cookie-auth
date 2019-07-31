@@ -4,12 +4,15 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
